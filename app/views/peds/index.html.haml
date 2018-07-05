@@ -14,9 +14,6 @@
       %span
         %b
           firstNamedApplicant
-      %span
-        %b
-          appFilingDate
     - @docs.each do |doc|
       %li
         %span
@@ -25,5 +22,3 @@
           = doc[:patentTitle]
         %span
           = doc[:firstNamedApplicant]
-        %span
-          = doc[:appFilingDate]
