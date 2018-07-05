@@ -1,0 +1,29 @@
+%div{style: "min-height:600px;"}
+  %h1
+    Patent Examination Data System by USPTO
+  %a{href: "https://ped.uspto.gov/peds/", target: "_blank"}
+    link
+  %ul
+    %li
+      %span
+        %b
+          applId
+      %span
+        %b
+          patentTitle
+      %span
+        %b
+          firstNamedApplicant
+      %span
+        %b
+          appFilingDate
+    - @docs.each do |doc|
+      %li
+        %span
+          = doc[:applId]
+        %span
+          = doc[:patentTitle]
+        %span
+          = doc[:firstNamedApplicant]
+        %span
+          = doc[:appFilingDate]

@@ -1,0 +1,6 @@
+%h2{style: "color:#333333;margin:0 0 12px;line-height:30px;"} Hello #{ @resource.full_name }
+%p Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
+%p Click the link below to unlock your account:
+%p{style: "color:#3FADE2;text-decoration:none;"}= link_to 'Unlock my account', unlock_url(@resource, unlock_token: @resource.unlock_token)
+%p
+  %span{style: "color:#333333;"} Warm regards,<br>Patentfield Team

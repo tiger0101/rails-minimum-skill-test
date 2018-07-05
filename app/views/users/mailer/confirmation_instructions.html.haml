@@ -1,0 +1,6 @@
+%h2{style: "color:#333333;margin:0 0 12px;line-height:30px;"} Welcome #{@resource.full_name},
+%p Thank you for signing up to Patentfield. As a final step, please confirm your account by clicking on the link below.
+%p{style: "color:#3FADE2;text-decoration:none;"}= link_to 'Confirm my account', user_confirmation_url(confirmation_token: @token)
+
+%p
+  %span{style: "color:#333333;"} Warm regards,<br>Patentfield Team

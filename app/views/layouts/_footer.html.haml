@@ -1,0 +1,32 @@
+%section.footer-wrap-1-1
+  .container.footer-1-1
+    .row
+      .col-sm-3
+        %h4
+          = t "footer.about_us"
+        %p
+          = t "footer.about_us_body"
+      .col-sm-3
+        %h4
+          = t "footer.disclaimer"
+        %p
+          = t "footer.disclaimer_body"
+
+      .col-sm-4
+        %h4
+          = t "footer.content"
+        %ul
+          %li
+            %a{:href => root_path}
+              home
+      .col-sm-2
+        %h4
+          = t "footer.buy"
+        %a.btn.btn-block.btn-primary
+          = t "footer.buy_button"
+.copyright-bar
+  .container
+    %a{href: root_path}
+      %img.copyright-logo.pull-left{src: nil, height: 20}
+    %p.copyright.pull-left
+      © 2018 Patentfield. All Rights Reserved.

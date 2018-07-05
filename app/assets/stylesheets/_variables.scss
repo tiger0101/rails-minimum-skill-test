@@ -1,0 +1,210 @@
+/*  variable */
+// Color
+// -------------------------
+
+
+//#4F7FB0 //btn-primary
+//#d7e1f0 //dropdown hover
+
+//followings are ipnexus style
+
+$brand-default: #666666;
+$brand-primary: #3fade2;
+$brand-success: #53B50A;
+$brand-warning: #F4A610;
+$brand-danger:  #ec4350;
+$brand-info:    #5bc0de;
+
+$brand-default-light1: #8C8C8C;
+$brand-primary-light1: #6EC1E9;
+$brand-success-light1: #8FCE50;
+$brand-warning-light1: #F7BC4C;
+$brand-danger-light1:  #F0727C;
+$brand-info-light1:    $brand-primary-light1;
+
+$brand-default-light2: #B2B2B2;
+$brand-primary-light2: #9ED5F0;
+$brand-success-light2: #B1D792;
+$brand-warning-light2: #F9D287;
+$brand-danger-light2:  #F5A1A7;
+$brand-info-light2:    $brand-primary-light2;
+
+$brand-default-light3: #D9D9D9;
+$brand-primary-light3: #CFEAF7;
+$brand-success-light3: #E0EEC9;
+$brand-warning-light3: #FCE9C3;
+$brand-danger-light3:  #FAD0D3;
+$brand-info-light3:    $brand-primary-light3;
+
+$light-gray01: #f8f8f8; //base background color
+$light-gray02: #efefef; //input form
+$light-gray03: #c1c1c1; //footer text color
+$light-gray04: #ddd; // border-color
+$light-gray05: #eee; // border-color
+
+$blue01:#16B1EF; //link color
+$blue02:#1f2f39; //navbar open hover
+$blue03:#50a8cf; //keyvisual box
+$blue04:#71a1ce; //dt color
+$blue05:#3fade2; //asterisk
+$blue06:#e7f3fa; //dashborad header bg
+$blue07:#3399cc;
+
+$green01:#E8FAE7;
+
+$black:#000;
+$black01:#1c1c1c; //dropdown bg
+$black02:#252525; //footer bg
+$black03:#1f1f1f; //footer bg
+$black04:#111111; //dashboard current
+
+$white:#fff;
+
+$cream01: #fdf9df;
+
+
+
+$alert-success:#e3edd9;
+$alert-success-border:#d9e5c5;
+$alert-info:#dcecf7;
+$alert-info-border:#c3e5ef;
+$alert-warning:#fcf6e4;
+$alert-warning-border:#f9ebd5;
+$alert-danger:#efdfdf;
+$alert-danger-border:#e9d3d7;
+
+$state-danger-text:  #EC4350;
+$state-warning-text: #F4A610;
+$state-success-text: #16AD41;
+$state-primary-text: #3FADE2;
+
+
+$color-facebook:#3c599f;
+$color-twitter:#00abf0;
+$color-linkedin:#0073b2;
+$color-google:#c95a3e;
+$color-rss:#fe9900;
+$color-rss2:#CD9827;
+$color-pinterest:#ec4350;
+$color-hatena:#00a4de;
+$color-pocket:#ed4055;
+
+$color-file-icon-word: $brand-primary;
+$color-file-icon-pdf: $brand-danger;
+$color-file-icon-excel: #53b50a;
+$color-file-icon-powerpoint: $brand-danger;
+$color-file-icon-image: #F4A610;
+$color-file-icon-archive: $brand-default;
+$color-file-icon-video: #a76adf;
+$color-file-icon-audio: $brand-warning;
+$color-file-icon-code: $brand-default;
+
+//== header colors
+$header-primary-bg: $brand-primary !default;
+$header-success-bg: $brand-success !default;
+$header-warning-bg: $brand-warning !default;
+$header-danger-bg:  $brand-danger !default;
+$header-info-bg: #e7f3fa !default;
+$header-white-bg: #ffffff !default;
+
+$header-link-color: #16b1ef;
+
+//== footer sns icon colors
+$footer-twitter-color: #08c7ff;
+$footer-facebook-color: #5c80ca;
+$footer-vimeo-color: #21b038;
+$footer-linkedin-color: #409ecd;
+$footer-youtube-color: #ec4350;
+$footer-rss-color: #cd9826;
+$footer-googleplus-color: #ec4350;
+
+//== Labels
+$label-default-bg: $brand-default !default;
+$label-primary-bg: $brand-primary !default;
+$label-success-bg: #57a439 !default;
+$label-info-bg:    $white !default;
+$label-warning-bg: $brand-warning !default;
+$label-warning2-bg: #F15F07 !default;
+$label-danger-bg:  $brand-danger !default;
+
+//** Default label text color
+$label-color:                 #fff !default;
+//** Default text color of a linked label
+$label-link-hover-color:      #fff !default;
+
+/* bootstrap castmize */
+// Forms
+// -------------------------
+$input-border:#fff;
+
+//== Typography
+//## Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base: 1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          $brand-default;
+
+// navbar
+// -------------------------
+$grid-float-breakpoint: 1000px;
+$navbar-collapse-max-height: 500px;
+
+// grid system
+// -------------------------
+$grid-gutter-width: 20px;
+$container-tablet: 620px;
+$container-desktop: 980px;
+$container-large-desktop: 1250px;
+$screen-lg: 1200px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-xs: 480px;
+
+// layout
+// -------------------------
+$section-mgn01:60px;
+
+
+@mixin center-inline{
+  text-align:center;
+}
+@mixin after-clearfix {
+  display: block;
+  height: 0;
+  clear: both;
+  content: "";
+}
+
+// responsive header height
+// -------------------------
+$sm-screen-narrow-height: 250px;
+$xs-screen-narrow-height: 156px;
+
+
+/* Font setting */
+// Webfont
+// -------------------------
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");

@@ -1,0 +1,15 @@
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/Users/ishikawataiga/.rbenv/versions/2.4.4/bin/ruby -r ./siteconf20180704-44800-1jmm0aa.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20180704-44800-g5m4p8/bindex

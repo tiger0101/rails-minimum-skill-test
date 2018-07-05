@@ -1,0 +1,130 @@
+/*
+Template Name: Bootstrap Starter Kit - Footers 1
+Description: Business Startup & Prototyping HTML Framework
+Author: Theme Spirit
+Author URI: http://www.creativemarket.com/theme_spirit
+
+Version: 1.0
+
+*/
+
+/*	FOOTER 1-1
+/*----------------------------------------------------*/
+
+.footer-wrap-1-1
+{
+    background-color: #fff;
+
+}
+.footer-1-1
+{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-1-1 h3, .footer-1-1 h4, .footer-1-1 .lead, .footer-1-1 li
+{
+}
+
+.footer-1-1 .brand-img
+{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-1-1 h4
+{
+    margin-bottom: 20px;
+}
+
+.footer-1-1 ul
+{
+    list-style-type: none;
+    margin: 0 0 26px;
+    padding: 0;
+}
+
+.footer-1-1 ul li
+{
+    border-top: 1px solid #bdc3c7;
+    line-height: 15px;
+    padding: 8px 0 3px 0;
+    font-size: 13px;
+}
+
+.footer-1-1 li:first-child
+{
+    border-top: none;
+    padding-top: 1px;
+}
+
+.footer-1-1 p
+{
+  font-size: 12px;
+}
+
+.footer-logo
+{
+  display: inline;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/*	FOOTER 1-1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width : 768px){
+
+
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width : 992px){
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width : 1200px){
+
+
+
+}
+
+
+/*	FOOTER Copyright Bar
+/*----------------------------------------------------*/
+
+.copyright-bar
+{
+    height: 60px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+
+.copyright-bar p
+{
+    margin: 0;
+}
+
+.copyright-bar .copyright-logo
+{
+  height: 20px;
+}
+.copyright-bar .copyright
+{
+  display: block;
+  margin-top: 3px;
+  padding-left: 10px;
+  line-height: 17px;
+  font-size: 12px;
+  color: #777777;
+}

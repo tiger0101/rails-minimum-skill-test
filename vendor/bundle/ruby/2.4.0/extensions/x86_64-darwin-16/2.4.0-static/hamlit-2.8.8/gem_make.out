@@ -1,0 +1,20 @@
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/hamlit-2.8.8/ext/hamlit
+/Users/ishikawataiga/.rbenv/versions/2.4.4/bin/ruby -r ./siteconf20180704-44800-nlkv55.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/hamlit-2.8.8/ext/hamlit
+make "DESTDIR=" clean
+
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/hamlit-2.8.8/ext/hamlit
+make "DESTDIR="
+compiling hamlit.c
+hamlit.c:65:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+  size = hesc_escape_html(&buf, RSTRING_PTR(str), RSTRING_LEN(str));
+       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling hescape.c
+linking shared-object hamlit/hamlit.bundle
+
+current directory: /Users/ishikawataiga/workspace/rails-minimum-skill-check-master/vendor/bundle/ruby/2.4.0/gems/hamlit-2.8.8/ext/hamlit
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hamlit.bundle ./.gem.20180704-44800-1gjk1j5/hamlit
